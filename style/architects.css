@@ -21,7 +21,7 @@ header {
 /* NAVIGATION CONTAINER */
 .navigation {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 80%;
     max-width: 1440px;
@@ -29,18 +29,14 @@ header {
 
 }
 
-.navigation-menu {
-    display: flex;
-}
-
 .list {
     list-style: none;
-    padding-left: 70px;
+    padding-left: 35px;
 }
 
 .navigation-title {
     color: #131313;
-    text-align: center;
+    text-align: left;
     font-family: Work Sans;
     font-size: 45px;
     font-weight: 700;
@@ -48,7 +44,8 @@ header {
 
 .navigation-menu {
     color: #424242;
-    text-align: center;
+    display: flex;
+    align-items: center;
     font-family: Work Sans;
     font-size: 18px;
 }
