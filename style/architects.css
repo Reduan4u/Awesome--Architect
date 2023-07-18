@@ -353,8 +353,31 @@ main {
 
     /* HEADER  */
     /* NAVIGATION CONTAINER */
+
+    .navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        max-width: 1440px;
+        margin: auto;
+
+    }
+
     .special-list {
         display: none;
+    }
+
+    .list {
+        padding-left: 40px;
+    }
+
+    .navigation-title {
+        font-size: 35px;
+    }
+
+    .container-title1 {
+        font-size: 44px;
     }
 
     main {
